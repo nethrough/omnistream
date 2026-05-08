@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="docs/banner.png" alt="Wickstream Banner" width="100%" />
+  <img src="docs/banner.png" alt="OmniStream Banner" width="100%" />
 
-  # 🎬 Wickstream
+  # 🎬 OmniStream
 
   **A robust, native desktop streaming client powered by Electron, React, and Express.**
 
@@ -16,7 +16,7 @@
 
 ## 🌟 Overview
 
-Wickstream is an open-source desktop application that provides a seamless, ad-free streaming experience. By combining metadata from public APIs with robust stream extraction techniques, Wickstream offers an elegant interface for exploring and watching your favorite movies and TV series.
+OmniStream is an open-source desktop application that provides a seamless, ad-free streaming experience. By combining metadata from public APIs with robust stream extraction techniques, OmniStream offers an elegant interface for exploring and watching your favorite movies and TV series.
 
 ### ✨ Key Features
 - **Native Desktop App:** Built with Electron for a fluid, OS-level experience.
@@ -28,7 +28,7 @@ Wickstream is an open-source desktop application that provides a seamless, ad-fr
 
 ## 🛠️ Architecture & Technologies
 
-Wickstream utilizes a modern monorepo structure, separating the presentation layer from the extraction pipeline.
+OmniStream utilizes a modern monorepo structure, separating the presentation layer from the extraction pipeline.
 
 - **Frontend:** React, Vite, React Router
 - **Backend (Local Proxy):** Express.js, Axios, Cheerio, Morgan (Logging)
@@ -50,12 +50,12 @@ Ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/wickstream.git
-   cd wickstream
+   git clone https://github.com/yourusername/omnistream.git
+   cd omnistream
    ```
 
 2. **Install all dependencies:**
-   Wickstream uses a single command to install dependencies for the root, frontend, and backend simultaneously.
+   OmniStream uses a single command to install dependencies for the root, frontend, and backend simultaneously.
    ```bash
    npm run install:all
    ```
@@ -70,7 +70,7 @@ Ensure you have the following installed:
 
 ## 📦 Building for Production
 
-You can easily package Wickstream into a standalone executable for macOS or Windows using `electron-builder`.
+You can easily package OmniStream into a standalone executable for macOS or Windows using `electron-builder`.
 
 ### Build for macOS (Universal)
 Generates a `.dmg` file for macOS (supports both Intel and Apple Silicon).
@@ -102,4 +102,4 @@ I'm a passionate developer building sleek, modern applications. If you like this
 
 > [!WARNING]
 > **This project is for educational and research purposes only.**
-> Wickstream does not host, upload, or manage any media files or copyrighted content on its servers. The application acts strictly as a client-side search tool and proxy, scraping public metadata and aggregating stream links from external, third-party sources. The creator of this software assumes no liability for how this software is used.
+> OmniStream does not host, upload, or manage any media files or copyrighted content on its servers. The application acts strictly as a client-side search tool and proxy, scraping public metadata and aggregating stream links from external, third-party sources. The creator of this software assumes no liability for how this software is used.

@@ -6,7 +6,7 @@ const fs = require('fs');
 const isDev = !app.isPackaged;
 
 // Log to a file so we can debug packaged builds
-const logPath = path.join(app.getPath('userData'), 'wickstream.log');
+const logPath = path.join(app.getPath('userData'), 'omnistream.log');
 function log(...args) {
   const line = `[${new Date().toISOString()}] ${args.join(' ')}\n`;
   process.stdout.write(line);
@@ -81,7 +81,7 @@ async function start() {
 app.whenReady().then(start).catch((err) => {
   log('FATAL ERROR:', err.message, err.stack);
   dialog.showErrorBox(
-    'Wickstream failed to start',
+    'OmniStream failed to start',
     `${err.message}\n\nLog: ${logPath}`
   );
   app.quit();
