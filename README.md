@@ -18,6 +18,14 @@
 
 OmniStream is an open-source desktop application that provides a seamless, ad-free streaming experience. By combining metadata from public APIs with robust stream extraction techniques, OmniStream offers an elegant interface for exploring and watching your favorite movies and TV series.
 
+<br />
+<div align="center">
+  <img src="docs/ss1.png" alt="Screenshot 1" width="32%" />
+  <img src="docs/ss2.png" alt="Screenshot 2" width="32%" />
+  <img src="docs/ss3.png" alt="Screenshot 3" width="32%" />
+</div>
+<br />
+
 ### ✨ Key Features
 - **Native Desktop App:** Built with Electron for a fluid, OS-level experience.
 - **Rich Metadata:** Powered by the **IMDb** autocomplete API (bypassing heavy WAFs) and **TVMaze** for comprehensive TV show data.
