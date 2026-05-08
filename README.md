@@ -98,11 +98,11 @@ npm run dist:win
 
 ## 👨‍💻 About the Author
 
-**Created by Wicky**
+**Created by Nethrough Wickramasinghe**
 
 I'm a passionate developer building sleek, modern applications. If you like this project, feel free to check out my other work!
 
-🌐 **[Visit my Portfolio](https://your-portfolio-url-here.com)**  *(Replace this link with your actual portfolio URL)*
+🌐 **[Visit my Portfolio](https://wickydev.vercel.app/)**
 
 ---
 
